@@ -84,11 +84,10 @@ app.on('ready', () => {
 
     mainWindow = new BrowserWindow({
       show: false,
-      minWidth: 1200,
-      minHeight: 800,
-      width: 1200,
-      height: 930,
+      width: 800,
+      height: 600,
       frame: true,
+      resizable: true,
       icon: getIconPath()
     })
 
